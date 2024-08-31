@@ -4,11 +4,11 @@ import tkinter.ttk as ttk
 from tkinter import scrolledtext
 from tkinter.filedialog import askopenfilename
 
-import config
-from comms import *
-from constants import *
-from handler import Handler
-from map import *
+import config # Map and robot configurations needed here
+# from comms import *
+from constants import * # Bearing class needed here
+from handler import Handler # Handler class needed here
+from map import * 
 
 
 class Simulator:
